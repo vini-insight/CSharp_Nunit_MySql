@@ -43,8 +43,8 @@ namespace D001
 
         public static ListaPessoas PegarDados()
         {
-            // string jsonString = File.ReadAllText("pessoas.JSON");
-            string path = @"g:\GitHub\CSF\Learn001\D001\pessoas.JSON";
+            // string jsonString = File.ReadAllText("pessoas.JSON");            
+            string path = @"g:\CSharp_Nunit_MySql\D001\pessoas.JSON";
             string jsonString = File.ReadAllText(path);
             return JsonSerializer.Deserialize<ListaPessoas>(jsonString); // dados JSON
         }
