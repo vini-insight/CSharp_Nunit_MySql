@@ -1,5 +1,6 @@
 # CSharp_Nunit_MySql
 C# Nunit MySql
+
 Dependências:
 
     $ dotnet add package MySql.Data
